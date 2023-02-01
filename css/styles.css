@@ -1,0 +1,70 @@
+body {
+  margin: 0 auto;
+  background-image: url("../img/g.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #404040 ;
+}
+
+.container{
+  width:1000px;
+  height: 720px;
+  text-align: center;
+  background-color: rgba(52,73,94,0.7);
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 150px;
+  font-family: fantasy;
+}
+
+.container img{
+  width: 240px;
+  height: 240px;
+  margin-top: -80px;
+  margin-bottom: 30px;
+}
+
+input[type="text"],input[type="password"]{
+  height: 50px;
+  width: 350px;
+  fornt-size: 30px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding-left: 30px;
+  font-family: sans-serif;
+}
+.form-input::before{
+  position: absolute;
+  padding-left: 10px;
+  color: #9B59B6;
+  padding-top: 10px;
+  fornt-size: 35px;
+}
+.form-input:last-child::before{
+  content:"\f007"
+}
+
+.btn-login{
+  padding: 3px 7px;
+  color: #fff;
+  background-color: #00b3b3;
+  border-bottom: 4px solid #009999;
+  margin-bottom: 10px;
+}
+.btn-signup{
+  padding: 15px 25px;
+  color: #fff;
+  background-color: #00b3b3;
+  border-bottom: 4px solid #009999;
+  margin-bottom: 20px;
+}
+.lsbutton input::before:before{
+  margin-right:16px;
+}
+.lsbutton input:last-child{
+  margin-right:16px;
+}
+
+a{
+  color:#fff;
+}
